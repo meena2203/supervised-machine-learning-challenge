@@ -11,11 +11,11 @@ backing the loans on a secondary market. We used this data to create machine lea
 ![Dataframe](images/df.png)
 
 ### Data Wrangling
-* Dropped any NAN values, if present
-* Checked the features (columns) for coorelation
+* Dropped NAN values, if present
+* Checked the features (columns) for correlation
 ![corr_matrix](images/corr_matrix.png)
 
-### Model Performance Prediction (Educated Guess)
+### Model Performance Prediction and Justification
 Since our data is numeric, has only 8 features (columns) and shows a strong linear relationship among most features, my educated guess is that Logistic Regression model will perform better than the Random Forest Classifier model in predicting the risk level of given loans. Justification for the above prediction is based on the following information:
 
 * Logistic Regression model is often used to predict two discrete classes (BINARY CLASSIFICATION) and is preferred when:
